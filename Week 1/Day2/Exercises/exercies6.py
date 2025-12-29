@@ -1,0 +1,9 @@
+#🌟 Exercise 6: A & B
+#Instructions
+#Create two variables, a and b.
+#Each variable’s value should be a number.
+#if a is bigger than b, have your code print "Hello World".
+a = 10
+b = 5
+if a > b:
+    print("hello world")
