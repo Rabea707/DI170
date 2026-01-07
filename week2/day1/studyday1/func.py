@@ -11,7 +11,7 @@ say_hello2("Rabea")
 
 #username = input("enter username")
 #language = input("enter lang")
-def say_hello(username, language):
+def say_hello(username, language = "EN"):
     if language == "EN":
         print("Hello "+username)
     elif language == "FR":

@@ -9,4 +9,3 @@ elif month == 12 or month == 1 or month == 2:
     print("winter")
 else:
     print("invaild month")
-bool((4==4) == bool("4" == "4"))
