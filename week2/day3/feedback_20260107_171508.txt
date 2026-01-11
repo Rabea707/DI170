@@ -1,0 +1,11 @@
+URL: https://github.com/Rabea707/DI170/blob/main/week2/day3/TIC-TAC-TOE.py
+suggestions for improvement:
+- The check_win function could be slightly improved by using a loop to iterate over the winning combinations, making it more concise.
+- Consider adding input validation to prevent non-integer values from causing errors when getting player input.
+- Adding a clear function or a method to reset the board for playing multiple games would enhance user experience.
+Brief justification:
+- correctness: The code accurately implements a Tic Tac Toe game as described in the chapter content. It covers all the necessary steps: representing the board, displaying the board, getting player input with validation, checking for a winner, checking for a tie, and managing the game loop. All functions are implemented as specified.
+- readability: The code is well-structured and easy to follow. The function names are descriptive, and the code is properly indented. Minor improvements could be made by adding comments to explain specific sections.
+- performance: The code's performance is efficient for the scope of the game. The algorithms used for checking win conditions and ties are appropriate for a 3x3 board. No significant performance bottlenecks are apparent.
+- security: The code includes basic input validation to prevent errors caused by invalid row/col inputs, enhancing its security. Further validation could prevent other unexpected inputs, but the current implementation is adequate for the project's scope.
+
