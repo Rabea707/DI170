@@ -1,0 +1,11 @@
+URL: https://github.com/Rabea707/DI170/blob/main/crashcours/html/mini_project1.html
+suggestions for improvement:
+- Use the provided URL for the image instead of 'Cookies.png'.
+- Remove the unnecessary `<br>` tags after each heading and paragraph. Use CSS for spacing instead.
+- Consider using semantic HTML5 elements like `<article>`, `<section>`, etc., for better structure, although it's not explicitly required in the instructions.
+Brief justification:
+- correctness: The code mostly implements the HTML structure and content as described in the 'Instructions' section and depicted in the provided image. It correctly uses headings, paragraphs, lists, and an image. The only major deviation is the use of a local 'Cookies.png' instead of the provided URL and the unecessary <br> tags which affect the correctness score.
+- readability: The code is reasonably readable with proper indentation and clear HTML structure.
+- performance: Performance is good. Using an external image source might introduce a slight delay but is generally acceptable.
+- security: Security is acceptable. The `target="_blank" rel="noopener noreferrer"` attributes are used correctly on the link.
+
