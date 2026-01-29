@@ -1,24 +1,42 @@
 // For each of the questions, find 2 WAYS of accessing :
 
 // 1. The div DOM node?
- const divdom = document.body.firstElementChild;
-    
- const divdom2 = document.body.children[0];
- console.log(divdom);
- console.log(divdom2);
+
+const divDom = document.body.firstElementChild;
+const divDom2 = document.body.children[0];
+
+console.log(divDom);
+console.log(divDom2);
+
 // 2. The ul DOM node?
-const uldom = document.body.firstElementChild.nextElementSibling
 
-const uldom2 = document.body.children[1];
-console.log(uldom);
-console.log(uldom2);
+const ulDom = document.body.firstElementChild.nextElementSibling;
+const ulDom2 = document.body.lastElementChild.previousElementSibling;
+
+console.log(ulDom);
+console.log(ulDom2);
+
 // 3. The second li (with Pete)?
-const liptedom = document.body.firstElementChild.nextElementSibling.lastElementChild;
 
-const liptedom2 = document.body.children[1].children[1];
+const pete =
+  document.body.firstElementChild.nextElementSibling.lastElementChild;
 
-const liptedom3 = divdom.nextElementSibling.lastElementChild;
+const pete2 = ulDom.lastElementChild;
 
-console.log(liptedom);
-console.log(liptedom2);
-console.log(liptedom3);
+const pete3 = document.getElementById('pete');
+
+pete.innerText = 'Marko';
+
+console.log(pete.innerText);
+console.log(pete2.innerText);
+
+// Aaron Notes:
+
+const names = document.getElementsByClassName('name');
+// this ^ is an array
+
+const names2 = document.querySelectorAll('#names');
+
+const tova = document.createElement('li');
+tova.innerText = 'Tova';
+ulDom.appendChild(tova);
