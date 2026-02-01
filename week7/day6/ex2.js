@@ -31,7 +31,7 @@ const shoppingList = ["banana", "orange", "apple"];
                 stock[item] -= 1;
             }
         }
-        return totalPrice;
+        return totalPrice;  
     }
 
 // In the function, loop through the shoppingList array.
