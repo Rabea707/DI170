@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Robo-Friends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <h1>Robo-Friends</h1>
+      <p class="subtitle">Search and discover friendly robots</p>
+      <label class="search">
+        <input id="search" type="search" placeholder="Search robots by name or email" aria-label="Search robots">
+      </label>
+    </header>
+
+    <section id="cards" class="cards" aria-live="polite"></section>
+
+    <div id="no-results" class="no-results" hidden>No robots found.</div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
